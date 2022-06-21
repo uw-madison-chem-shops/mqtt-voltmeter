@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name weather)(type Legacy)(uri ${KIPRJMOD}/weather.lib)(options "")(descr ""))
-  (lib (name VXO7805-500-M)(type Legacy)(uri ${KIPRJMOD}/VXO7805-500-M.lib)(options "")(descr ""))
+  (lib (name "LT1997HMS-3_PBF")(type "Legacy")(uri "${KIPRJMOD}/symbols/LT1997HMS-3_PBF.lib")(options "")(descr ""))
+  (lib (name "VXO7805-500-M")(type "Legacy")(uri "${KIPRJMOD}/symbols/VXO7805-500-M.lib")(options "")(descr ""))
 )
