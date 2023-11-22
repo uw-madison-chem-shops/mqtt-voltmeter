@@ -9,9 +9,7 @@ echo "sleeping"
 sleep 5
 echo "putting files on device"
 ampy -p /dev/ttyUSB0 put main.py
-python -m mpy_cross settings.py
-ampy -p /dev/ttyUSB0 put settings.mpy
-python -m mpy_cross max9651.py
-ampy -p /dev/ttyUSB0 put max9651.mpy
+ampy -p /dev/ttyUSB0 put settings.py
+ampy -p /dev/ttyUSB0 put max9651.py
 read -p "reset device and press enter"
 echo "done!"
